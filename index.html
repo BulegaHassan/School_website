@@ -1,0 +1,309 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Hassan High School</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="Images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/school.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c03708e114.js" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/school.js"></script>
+   
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    });
+    </script>
+</head>
+	
+<body >
+	<header>
+    <section class="start">
+
+      <div class="social_icons">
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.skype.com/" target="_blank" class="fa fa-skype"></a>
+      <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+      <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+      </div>
+    
+    </section>
+
+    <section class="logo">
+      <div class="begin">
+        <img src="Images/newSchLogo.png"  alt="School logo">
+        <h2>Hassan High School</h2>
+        <h3>Knowledge is light</h3>
+        <div class="contacts">
+          <i class="fa fa-clock-o" ><span class="clock"> Office Hours:Mon-Fri, 7:00-17:00</span></i> 
+          <i class="fa fa-envelope" > <span class="clock"><a href="mailto:hhs1@has.com">hhs1@has.com</a></span> </i> 
+        </div>  
+      </div>
+      
+      <div class="location">
+        <i class="fa fa-map-marker">
+          <h5>Plot 321 work road</h5>
+        <h5>Kasa, Ngati</h5>
+        </i>
+      </div>
+      <div class="phone">
+        <i class="fa fa-phone">
+          <h5>Contact</h5>
+        <h5><a href="tel:0312456775">0312456775</a></h5>
+        </i>
+      </div>
+      <div class="search1">
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+          <input type="text" placeholder="Search..." name="search2">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+     
+    </section>
+    </header>
+
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+    	<ul>
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="school_template.html">Staff <i class='fas fa-arrow-alt-circle-down'></i></a>
+            	<ul>
+                	<li><a href="#">Teaching Staff</a></li>
+                    <li><a href="#">Non Teaching Staff</a></li>
+                    <li><a href="#">Support Staff</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="school_template.html">Students <i class='fas fa-arrow-alt-circle-down'></i></a>
+              <ul>
+                <li><a href="#">Prefectorial Body</a></li>
+                <li><a href="#">Student Houses</a></li>
+                <li><a href="#">Student Clubs and Societies</a></li>
+              </ul>
+            </li>
+    		<li><a href="school_template.html">Academics <i class='fas fa-arrow-alt-circle-down'></i></a>
+          <ul>
+            <li><a href="#">E-Learning</a></li>
+            <li><a href="#">Theology Curriculum <i class='fas fa-arrow-alt-circle-right'></i></a>
+              <ul>
+                <li><a href="#">Subjects Offered</a></li>
+                  <li><a href="#">Tests and Exams</a></li>
+                  <li><a href="#">Library</a></li>
+                  <li><a href="#">Mosque Programs for students</a></li>
+                  
+              </ul>
+            </li>
+            <li><a href="school_template.html">Secular Curriculum <i class='fas fa-arrow-alt-circle-right'></i></a>
+              <ul>
+                <li><a href="#">Subjects Offered</a></li>
+                  <li><a href="#">Tests and Exams</a></li>
+                  <li><a href="#">Library</a></li>
+                  <li><a href="#">Laboratories</a></li>
+                  
+              </ul>
+            </li>
+            <li><a href="school_template.html">Awards and Scholarship</a></li>
+            <li><a href="school_template.html">Tests and Exams</a></li>
+            
+          </ul>
+        </li>
+    		<li class="lastitem"><a href="#">About Us</a></li>         
+    	</ul>
+    </nav> <br>
+   <section>
+    <ul class="slider">
+      <li><img src="images/building1.jpg" alt="" title="Main Building"></li>
+      <li><img src="images/building2.jpg" alt="" title="Classroom Block"></li>
+      <li><img src="images/library2.jpg" alt="" title="Library"></li>
+      <li><img src="images/mainhall.jpg" alt="" title="Main Hall"></li>
+      <li><img src="images/science_lab.jpg" alt="" title="Science Laboratory"></li>
+      <li><img src="images/classroom.jpg" alt="" title="Classroom"></li>
+  </ul>
+   </section>
+   
+   <script>
+    $(document).ready( () => 
+        $(".slider").bxSlider({
+          auto: true,
+          autoControls: true,
+          captions: true,
+          slideWidth: 1125,
+          
+        })
+    )
+</script>
+    <main>
+        
+           <h1>Welcome to Hassan High School</h1>
+          <section class="intro">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa consequuntur rerum voluptatibus molestias provident fugiat quis, quo maiores eligendi nemo nulla nihil vitae illo. Enim non dolores tenetur cum placeat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nesciunt asperiores accusantium modi ducimus repellendus recusandae et! Ducimus vel perspiciatis fugiat eos maiores quos voluptatibus officiis alias deserunt necessitatibus architecto laborum laboriosam cumque, repellendus repudiandae itaque nulla neque dicta aliquid molestias! Voluptates natus, accusamus enim ullam non inventore! Facere officia vitae suscipit blanditiis, magni expedita amet dolorem cumque in, facilis enim tempora    <a class="normal" href="#">Read more>></a></p>
+          </section>
+           <section class="details">
+            <aside class="motto">
+              <h4>Motto</h4>
+              <p>Knowledge is Light</p><kbd>&ldquo;Are those who know...&rdquo;</kbd>
+            </aside>
+            <aside class="vision">
+              <h4>Vision</h4>
+              <p>To produce pious and competent citizens to develop the country and world</p>
+            </aside>
+            <aside class="mission">
+              <h4>Mission</h4>
+              <p>To provide quality Education for practical skills and self reliance</p>
+            </aside>
+            <aside class="values">
+              <h4>Core Values</h4>
+              <ul>
+                <li>Piety</li>
+                <li>Self Discpline</li>
+                <li>Works</li>
+              </ul>
+              </aside>
+           </section>
+           <section class="numbers">
+            
+             <div> <span class="count" data-stop="77">77</span><p>Subjects Offered</p></div>
+             <div> <span class="count" data-stop="100">100</span><p>Spacious Classrooms</p></div>
+             <div> <span class="count" data-stop="312">312</span><p>Proffessional 
+               Teachers</p></div>
+             <div> <span class="count" data-stop="5000">5000</span><p>Current Students</p></div>
+           
+            
+           </section>
+          <section class="middle">
+            <h3>Our Subjects</h3>
+          <p>
+            Hassan High School provides a wide range of subjects for both curicuk with knowledge and practical skills.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi?</p>
+          <p><a href="#">Read more>></a></p>
+          </section>
+           <section class="subjects">
+              <aside>
+                <h4>Theology Studies</h4>
+                <a href="#"><img src="images/islamic_theology.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside>
+              <aside>
+                <h4>Sciences</h4>
+               <a href="#"> <img src="images/science_studies.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside>
+              <aside>
+                <h4>Computer Studies</h4>
+                <a href="#"><img src="images/computer_studies.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside>
+              <aside>
+                <h4>Humanities</h4>
+                <a href="#"><img src="images/humanities.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside>
+              
+              <aside>
+                <h4>Business Studies</h4>
+                <a href="#"><img src="images/business_studies.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside>
+             <aside>
+                <h4>Vocational Studies</h4>
+                <a href="#"><img src="images/vocational_studies.jpg" alt=""></a>
+                <a href="#" ><button class="apply">Details</button></a>
+              </aside> 
+            </section>
+           
+           <div class="bottom">
+            <section class="newsletter">
+              <form action="#" method="post" id="newsletter" name="newsletter">
+               <fieldset>
+                 <legend>Sign Up for Newsletter</legend>
+                 <div>
+                     <label for="first_name">First Name:</label>
+                     <input type="text" id="first_name" name="first_name">
+                     <span>*</span>
+                 </div>
+                 <div>
+                     <label for="last_name">Last Name:</label>
+                     <input type="text" id="last_name" name="last_name"  >
+                     <span>*</span>
+                 </div>
+                 <div>
+                     <label for="email">Email:</label>
+                     <input type="email" id="email" name="email">
+                     <span>*</span>
+                 </div>
+                 <input type="submit" id="submit" name="submit" value="Sign Up">
+             </fieldset>
+              </form>
+            </section>
+            <section class="downloads">
+             <h3>Downloads</h3>
+             <a href="documents/summary.pdf" type="application/pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Theology Curriculum</a><br>
+              <a href="documents/summary.pdf" type="application/pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> O'level Curriculum</a><br>
+              <a href="documents/summary.pdf" type="application/pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> A level Curriculum</a><br>
+            </section>
+           </div> <section class="search">
+            <form class="example"  action="action_page.php">
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit" id="search"><i class="fa fa-search"></i></button>
+            </form>
+           </section>
+
+           
+    </main>
+    <footer>
+     
+      <div class="about_us">
+        <h3>About Our School</h3>
+        <p>Hassan High School began at the start of this century by 3 professors of Education from Makerere University. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur maxime sunt eius saepe, id mollitia.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci delectus dolore fuga aliquid sequi quam, amet nostrum, nulla sint placeat saepe rerum quis explicabo, aperiam eligendi est? Odio obcaecati qui accusantium, natus voluptatibus similique cumque iusto voluptas. Id, cum.<a href="#">details...</a></p>
+      </div>
+      <div class="word">
+        <h3>Principals Message</h3>
+        <p>Hassan High School beUniversity. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur maxime sunt eius saepe, id mollitia.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci delectus dolore fuga aliquid sequi quam, amet nostrum, nulla sint placeat saepe rerum quis explicabo, aperiam eligendi est? Odio obcaecati qui accusantium, natus voluptatibus similique cumque iusto voluptas. Id, cum.</p>
+      </div>
+      <div class="recent_posts">
+        <h3>Recent posts</h3>
+        <h5><a href="#"><i class="fa fa-clock-o" ></i> School represents Region in International Quran Competitions</a> <br>Posted 3<sup>rd</sup> /3/2021</h5>
+        <h5><a href="#"><i class="fa fa-clock-o" ></i> Schools resilience during the pandemic</a> <br> Posted 12<sup>th</sup>/6/2021</h5>
+        <h5><a href="#"><i class="fa fa-clock-o" ></i> Introducing Robotics in Lower Secondary</a> <br> Posted 12<sup>th</sup>/6/2020</h5>
+        <h5><a href="#"><i class="fa fa-clock-o" ></i> Our School tops Government merit Scholarships</a> <br> Posted 1<sup>st</sup>/6/2020</h5>
+      </div>
+     <div class="quick_links">
+      <h3>Quick links</h3>
+      <h5><a href="#">Home</a></h5>
+      <h5><a href="#">Offices</a></h5>
+      <h5><a href="#">Old Sudent Association</a></h5>
+      <h5><a href="#">Gallery</a></h5>
+      <h5><a href="#">Contacts</a></h5>
+      <h5><a href="#">Admission</a></h5>
+     </div>
+    </footer>
+  <div class="base">
+    <script>
+      let today = new Date ();
+      document.write(`<p>&copy; Copyright ${today.getFullYear()} Remedy Life Clinic.</p>`)
+    </script>
+    <span class="social_icons" id="bottom">
+      <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.skype.com/" target="_blank" class="fa fa-skype"></a>
+    <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+    </span>
+  </div>
+ 
+</body>
+</html>
