@@ -2,27 +2,15 @@
 
 <html lang="en">
 <head>
-	<title>Hassan High School</title>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="Images/school-design-.ico">
-	<link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/school.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <link rel="stylesheet" href="styles/slicknav.css">
+	<link rel="shortcut icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" integrity="sha512-heyoieAHmpAL3BdaQMsbIOhVvGb4+pl4aGCZqWzX/f1BChRArrBy/XUZDHW9WVi5p6pf92pX4yjkfmdaIYa2QQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/c03708e114.js" crossorigin="anonymous"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-   <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/school.js"></script>
-   
-    <script src="js/jquery.slicknav.min.js"></script>
-	<script type="text/javascript">
-    $(document).ready(function(){
-		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
-    });
-    </script>
+    <link rel="stylesheet" href="styles/school.css">
 </head>
 	
 <body >
@@ -178,6 +166,33 @@
     <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
     </span>
   </div>
+   <!--script elements-->
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js" integrity="sha512-FmCXNJaXWw1fc3G8zO3WdwR2N23YTWDFDTM3uretxVIbZ7lvnjHkciW4zy6JGvnrgjkcNEk8UNtdGTLs2GExAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+   $(document).ready(function(){
+   $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+   });
+   </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    $(document).ready( () => 
+        $(".slider").bxSlider({
+          auto: true,
+          autoControls: true,
+          stopAutoOnClick: true,
+          pager: true,
+          captions: true,
+          minSlides: 1,
+          maxSlides: 1,
+          slideWidth: 1125,
+          slideMargin: 10
+        })
+    )
+    </script>
+    <script src="js/school.js"></script>
+ 
  
 </body>
 </html>
