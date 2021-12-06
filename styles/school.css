@@ -1,4 +1,4 @@
-/* type selectors */
+
 html {
 	background-image: -moz-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
 	background-image: -webkit-linear-gradient(to bottom, white 0%, hsl(138, 92%, 76%) 100%);
@@ -13,34 +13,7 @@ body {
 	background-color: white;
 	margin: 15px auto;
 	padding:  0;
-	
 }
- main,h1, h2, h3, p {
-	margin: 0;
-	padding: 0;
-}
-main {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 1em;
-}
-p {
-	font-size: .875em;                 
-	padding-bottom: .5em;
-	line-height: 130%;
-}
-li {
-	font-size: .875em; 
-}
-
-
-.motto {background-color: rgb(60, 158, 107);}
-.vision {background-color: rgb(163, 33, 33);}
-.mission {background-color: rgb(54, 25, 187);}
-.values {background-color: rgb(161, 32, 123);}
-
-
-
 a {
 	font-weight: bold;
 	text-decoration: none;
@@ -149,8 +122,6 @@ header .logo img {
   .search1 form.example button:hover {
 	background:#2ef2d1;
   }
- 
-  /* Clear floats */
   .search1 form.example::after {
 	content: "";
 	clear: both;
@@ -222,18 +193,31 @@ header .logo img {
 .fas fa-arrow-alt-circle-down {
 	margin-left: 1em;
 }
-main img {
-	width: 60%;
-	float: right;
-	margin: 0 20%;
-}
-main {
-	padding: 2em;
-}
 ul.slider {
 	margin: 0;
 	padding: 0;
 }
+/*Styles for the main*/
+main,h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+	padding: 2em;
+}
+p {
+	font-size: .875em;                 
+	padding-bottom: .5em;
+	line-height: 130%;
+}
+li {
+	font-size: .875em; 
+}
+
+
  /* styles to animate h1*/
  main h1 {
 	margin-left: 5%;
@@ -264,14 +248,8 @@ ul.slider {
 		color: hsl(118, 94%, 52%);
 		}
 }
-aside ul {
-	margin-top: 0;
-	margin-bottom: 1.5em;
-}
-aside li {
-	font-size: .875em;                       
-	padding-bottom: .35em;
-}
+/*styles for the sections*/
+
 
 .intro, .middle {
 	flex-basis: 60%;
@@ -293,6 +271,18 @@ aside li {
 	margin: .2em 0;
 	justify-content: center;
 }
+.details aside ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+.details aside li {
+	font-size: .875em;                       
+	padding-bottom: .35em;
+}
+.motto {background-color: rgb(60, 158, 107);}
+.vision {background-color: rgb(163, 33, 33);}
+.mission {background-color: rgb(54, 25, 187);}
+.values {background-color: rgb(161, 32, 123);}
 .numbers div {
 	flex-basis: 16%;
 
@@ -315,9 +305,7 @@ aside li {
 	margin-left: 5em;
 	margin-right: 5em;
 }
-.bottom {
-	margin-right: 10em;
-}
+
 .details p {
 	font-size: 85%;
 }
@@ -340,20 +328,24 @@ aside li {
 .subjects aside {
 	flex-basis: 13%;
 	border: none;
-    margin: 0;
+    margin-left: .1em;
+	margin-right: 0;
 	padding: 0;
 	margin-bottom: 0.5em;
 	font-size: 90%;
+}
+.subjects aside img {
+	width: 80%;
 }
 .subjects a {
 	font-size: 80%;
 }
 .subjects h4 {
-	text-align: center;
+	text-align: left;
 }
 .apply{
     margin-top: 4%;
-	margin-left: 3.8em;
+	margin-left: 2.8em;
     background-color:  #04fad1;
     padding: 0.2em .4em;
     color: #931420;
@@ -378,7 +370,7 @@ aside li {
 	color: white;
 	font-size: 1.5em;
 	border: 1px solid   #2ef2d1;
-	border-left: none; /* Prevent double borders */
+	border-left: none; 
 	cursor: pointer;
   }
   
@@ -386,13 +378,15 @@ aside li {
 	background: #2ef2d1;
   }
  
-  /* Clear floats */
   .search form.example::after {
 	content: "";
 	clear: both;
 	display: table;
   }
   /*styles for div.bottom*/
+  .bottom {
+	margin-right: 10em;
+}
   div.bottom {
 	  display: flex;
 	  justify-content: center;
@@ -405,6 +399,18 @@ aside li {
 	  margin: 1em 0 0 0;
 	  color:#931420 ;
   }
+
+/*styles for download section*/
+.downloads a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.downloads h3 {
+	padding-bottom: .2em;
+	margin-bottom: 0.3em;
+	margin-top: 0;
+}
 /*styles for the form of newsletter*/
 label {
 	float: left;
@@ -437,17 +443,6 @@ span {
 	color: red;
 	font-size: 87.5%;
 	margin-left: .5em;
-}
-/*styles for download section*/
-.downloads a {
-	font-weight: normal;
-	text-decoration: underline;
-}
-
-.downloads h3 {
-	padding-bottom: .2em;
-	margin-bottom: 0.3em;
-	margin-top: 0;
 }
 /* the styles for the footer */
 footer {
@@ -524,8 +519,10 @@ footer  .social_icons {
         margin: 0; 
 		border: none;                                                  
     }
+	main {
+        width: 100%;                               
+    }
     
-    footer p { margin-right: 0; }
     header h2 {
         font-size: 1.625em;                   
         margin: .4em 0 .25em 0;
@@ -534,27 +531,11 @@ footer  .social_icons {
         font-size: 1em;                        
         margin-left: 0;
     }
-    header img {
-        float: none;
-    }
-    main {
-        width: 100%;                               
-    
-    }
-    main img {
-        float: none;
-        width: 100%;
-        margin: 2%;
-    }
-	
 	.details aside {
 		flex-basis:32%;
 	}
 	.logo, .details, .subjects, footer {
 		flex-wrap: wrap;
-	}
-	footer {
-		justify-content: center;
 	}
 	.subjects aside {
 		margin: 0.2em;
@@ -564,12 +545,15 @@ footer  .social_icons {
 		font-size: 55%;
 	}
 	.apply {
-		margin-right: 1.24em;
-		margin-left: 2.7em;
+		margin-right: 2.24em;
+		margin-left: 2em;
 	}
 	.newsletter {
       margin-right: 2em;
 	  margin-left: 0.1em;
+	}
+	footer {
+		justify-content: center;
 	}
 	footer div {
 		margin-top: 0;
@@ -584,6 +568,7 @@ footer  .social_icons {
 		padding-right: -5em;
 		margin-right: -5em;
 	}
+	
     header h2 {
         font-size: 1.25em;                    
     }
@@ -609,19 +594,6 @@ footer  .social_icons {
 	
     p {
         font-size: .875em;
-    }
-    main h1, main h2 {
-        font-size: 1em;                        
-    }
-	
-    
-    main img {
-        float: none;
-        width: 100%;
-        margin: .5em;
-    }
-   main h3 {
-        font-size: .9375em;                    
     }
 	.details aside {
 		height: 10em;
