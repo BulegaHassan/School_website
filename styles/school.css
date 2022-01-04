@@ -173,7 +173,7 @@ header .logo img {
 }
 
 #nav_menu ul li {
-	flex-basis: 20%;                     
+	flex-basis: 100%;                     
 }
 #nav_menu ul li a {
 	text-align: center;
