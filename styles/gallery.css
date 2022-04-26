@@ -1,0 +1,33 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.gallery_div {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    margin: 1em;
+}
+
+img {
+    margin: 0 .75em .75em 0;
+}
+
+img:hover {
+    width: 40%;
+}
+
+@media only screen and (max-width: 479px) {
+    .gallery_div {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+}

@@ -444,6 +444,11 @@ span {
 	font-size: 87.5%;
 	margin-left: .5em;
 }
+.hide {
+	display: none;
+	text-align: center;
+	margin-bottom: .75em;
+}
 /* the styles for the footer */
 footer {
 	display: flex;
