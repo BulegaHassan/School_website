@@ -1,0 +1,73 @@
+.top {
+    text-align: center;
+    color: #931420;
+    margin-bottom: 2em;
+}
+
+.contacts {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 2em;
+    text-align: center;
+    color: black;
+}
+
+.contact_info h3 {
+    padding: 0 0 1em 0;
+}
+
+.contact_info p {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+.mapouter {
+    display: flex;
+    justify-content: start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+legend {
+    color: #000;
+}
+
+input {
+    margin-left: 0;
+}
+
+textarea {
+    /* margin-left: 2.75em; */
+}
+
+#submit {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .contacts {
+        flex-direction: column;
+    }
+    .contact_info {
+        order: 1;
+    }
+    .mapouter {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .mapouter {}
+}
